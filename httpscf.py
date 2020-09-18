@@ -9,7 +9,7 @@ with open(str(proxy),'wb') as fp:
 	fp.write(rsp.content)
 	print("GenerateProxy : Success")
 	
-r = requests.get('https://pastebin.com/AL7EtAXK')
+r = requests.get('https://pastebin.com/kjBZqA1B')
 if 'v4' in r.text:
     print ('Key Error!!')
     print ('Contact FB : Kritt Korn')
